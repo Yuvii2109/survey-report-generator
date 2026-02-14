@@ -370,7 +370,7 @@ def generate_insights_with_gemini(api_key, stats, school_name):
     
     try:
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel('gemini-2.5-pro')
+        model = genai.GenerativeModel('gemini-2.5-flash')
         
         prompt = f"""
         ROLE: Expert Education Data Analyst.
@@ -579,4 +579,5 @@ if uploaded_file:
                 data=zip_buffer.getvalue(),
                 file_name="school_reports.zip",
                 mime="application/zip"
+
             )
