@@ -72,7 +72,7 @@ The application expects a CSV or Excel file with the following structure:
 
 * **Frontend/UI:** Streamlit
 * **Data Processing:** Pandas, NumPy
-* **AI/LLM:** Google Generative AI (Gemini Pro)
+* **AI/LLM:** Google Generative AI (Gemini-2.5-Flash)
 * **Templating:** Python String Manipulation (HTML Injection)
 * **Styling:** Tailwind CSS (Injected via CDN in reports)
 
